@@ -1,0 +1,103 @@
+.zctz-xai-settings {
+	max-width: 64rem;
+}
+
+.zctz-xai-models-list {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.zctz-xai-model-item {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	margin-bottom: .5rem;
+}
+
+.zctz-xai-model-meta {
+	color: #50575e;
+	font-size: 12px;
+}
+
+.zctz-xai-capabilities {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .375rem;
+}
+
+.zctz-xai-pill {
+	align-items: center;
+	background-color: #dbe3f0;
+	border-radius: 999px;
+	color: #1f2937;
+	display: inline-flex;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.5;
+	padding: .125rem .5rem;
+}
+
+.zctz-xai-pill--vision {
+	background-color: #dbeafe;
+	color: #1e3a8a;
+}
+
+.zctz-xai-pill--tools {
+	background-color: #dcfce7;
+	color: #14532d;
+}
+
+.zctz-xai-pill--structured {
+	background-color: #fef3c7;
+	color: #713f12;
+}
+
+.zctz-xai-pill--reasoning {
+	background-color: #ede9fe;
+	color: #4c1d95;
+}
+
+.zctz-xai-pill--embedding {
+	background-color: #cffafe;
+	color: #164e63;
+}
+
+.zctz-xai-pill--image {
+	background-color: #fce7f3;
+	color: #831843;
+}
+
+#zctz-xai-diagnostics-spinner {
+	float: none;
+	margin-block-start: 4px;
+	margin-inline-start: 6px;
+}
+
+#zctz-xai-diagnostics-results.notice {
+	margin: 12px 0 0;
+	padding: 8px 12px;
+}
+
+.zctz-xai-diagnostics-heading {
+	font-weight: 600;
+	margin-block: 0 .5rem;
+}
+
+#zctz-xai-diagnostics-results table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#zctz-xai-diagnostics-results th,
+#zctz-xai-diagnostics-results td {
+	padding-block: 5px;
+	padding-inline: 0 8px;
+	text-align: start;
+	vertical-align: top;
+}
+
+#zctz-xai-diagnostics-results th {
+	width: 11rem;
+}

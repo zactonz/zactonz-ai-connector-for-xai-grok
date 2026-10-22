@@ -1,0 +1,39 @@
+{
+  "grok-4.7": {
+    "capabilities": ["text_generation", "chat_history"],
+    "options": ["functionDeclarations", "outputSchema", "inputModalities"],
+    "features": { "text": true, "vision": true, "tools": true, "structured": true, "reasoning": true, "embedding": false, "image": false }
+  },
+  "grok-4.3": {
+    "capabilities": ["text_generation", "chat_history"],
+    "options": ["functionDeclarations", "outputSchema"],
+    "features": { "text": true, "vision": false, "tools": true, "structured": true, "reasoning": false, "embedding": false, "image": false }
+  },
+  "grok-4.20-0309-reasoning": {
+    "capabilities": ["text_generation", "chat_history"],
+    "options": ["functionDeclarations", "outputSchema"],
+    "features": { "text": true, "vision": false, "tools": true, "structured": true, "reasoning": true, "embedding": false, "image": false }
+  },
+  "grok-4.20-0309-non-reasoning": {
+    "capabilities": ["text_generation", "chat_history"],
+    "options": ["functionDeclarations", "outputSchema"],
+    "features": { "text": true, "vision": false, "tools": true, "structured": true, "reasoning": false, "embedding": false, "image": false }
+  },
+  "grok-build-0.1": {
+    "capabilities": ["text_generation", "chat_history"],
+    "options": ["functionDeclarations", "outputSchema"],
+    "features": { "text": true, "vision": false, "tools": true, "structured": true, "reasoning": false, "embedding": false, "image": false }
+  },
+  "grok-imagine-image-2.0": {
+    "capabilities": ["image_generation"],
+    "options": ["outputModalities", "candidateCount", "outputFileType"],
+    "optionsAbsent": ["functionDeclarations"],
+    "features": { "text": false, "vision": false, "tools": false, "structured": false, "reasoning": false, "embedding": false, "image": true }
+  },
+  "grok-imagine-video-1.5": {
+    "excluded": true
+  },
+  "grok-voice-3.0": {
+    "excluded": true
+  }
+}

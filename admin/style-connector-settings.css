@@ -1,0 +1,63 @@
+.zctz-xai-connector__panel {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #1d2327;
+	display: grid;
+	gap: 12px;
+	margin-block: -1px 16px;
+	margin-inline: auto;
+	max-width: 904px;
+	padding: 20px 28px;
+	width: 100%;
+}
+
+.zctz-xai-connector__title {
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.zctz-xai-connector__field {
+	display: grid;
+	gap: 4px;
+}
+
+.zctz-xai-connector__label {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.zctz-xai-connector__help {
+	color: #50575e;
+	font-size: 12px;
+}
+
+.zctz-xai-connector__input {
+	max-width: 32rem;
+	width: 100%;
+}
+
+.zctz-xai-connector__actions {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.zctz-xai-connector__link {
+	font-size: 13px;
+}
+
+.zctz-xai-connector__status {
+	font-size: 13px;
+}
+
+.zctz-xai-connector__status--ok {
+	color: #007017;
+}
+
+.zctz-xai-connector__status--error {
+	color: #b32d2e;
+}

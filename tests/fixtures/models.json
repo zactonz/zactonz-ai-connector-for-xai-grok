@@ -1,0 +1,105 @@
+{
+  "models": [
+    {
+      "id": "grok-4.7",
+      "fingerprint": "fp_grok47",
+      "created": 1761091200,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "1.0.0",
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
+      "aliases": ["grok-4.7-latest"],
+      "prompt_text_token_price": 30000,
+      "completion_text_token_price": 150000
+    },
+    {
+      "id": "grok-4.3",
+      "fingerprint": "fp_grok43",
+      "created": 1758412800,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "1.0.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
+      "aliases": [],
+      "prompt_text_token_price": 20000,
+      "completion_text_token_price": 100000
+    },
+    {
+      "id": "grok-4.20-0309-reasoning",
+      "fingerprint": "fp_grok420r",
+      "created": 1757203200,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "1.0.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
+      "aliases": [],
+      "prompt_text_token_price": 20000,
+      "completion_text_token_price": 100000
+    },
+    {
+      "id": "grok-4.20-0309-non-reasoning",
+      "fingerprint": "fp_grok420n",
+      "created": 1757203200,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "1.0.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
+      "aliases": [],
+      "prompt_text_token_price": 20000,
+      "completion_text_token_price": 100000
+    },
+    {
+      "id": "grok-build-0.1",
+      "fingerprint": "fp_grokbuild",
+      "created": 1759622400,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "0.1.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
+      "aliases": [],
+      "prompt_text_token_price": 15000,
+      "completion_text_token_price": 75000
+    },
+    {
+      "id": "grok-imagine-image-2.0",
+      "fingerprint": "fp_imagine2",
+      "created": 1760572800,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "2.0.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["image"],
+      "aliases": ["grok-imagine-image-latest"],
+      "image_price": 70000
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "fingerprint": "fp_imaginevid15",
+      "created": 1760572800,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "1.5.0",
+      "input_modalities": ["text"],
+      "output_modalities": ["video"],
+      "aliases": [],
+      "video_price": 350000
+    },
+    {
+      "id": "grok-voice-3.0",
+      "fingerprint": "fp_voice3",
+      "created": 1759017600,
+      "object": "model",
+      "owned_by": "xai",
+      "version": "3.0.0",
+      "input_modalities": ["audio", "text"],
+      "output_modalities": ["audio"],
+      "aliases": [],
+      "audio_price": 120000
+    }
+  ]
+}

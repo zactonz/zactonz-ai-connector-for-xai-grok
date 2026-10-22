@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.tmp
+*.swp
+.phpunit.result.cache
+
+/vendor
+/node_modules/
+/build/
+/dist/
+
+.env
+.env.*
+!.env.example
